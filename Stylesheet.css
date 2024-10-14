@@ -1,0 +1,90 @@
+  html, body {
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background-image: url("Japanese BG3.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        text-align: center;
+      }
+      .Box-1 {
+        font-size: 4em;
+        text-align: center;
+        padding: 10px;
+        animation: popup 2s ease-in-out;
+        animation-fill-mode: forwards;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-shadow: -2px -2px 0 rgb(255, 255, 255),
+          2px -2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255),
+          2px 2px 0 rgb(255, 255, 255);
+      }
+      .Box-Common {
+        font-size: 1.2em;
+        text-align: center;
+        padding: 10px;
+        opacity: 0;
+        animation: popup 2s ease-in-out;
+        animation-delay: 0.8s;
+        animation-fill-mode: forwards;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-shadow: -2px -2px 0 rgb(255, 255, 255),
+          2px -2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255),
+          2px 2px 0 rgb(255, 255, 255);
+      }
+      #Box-4 {
+        font-size: 1.15em;
+        text-align: center;
+        padding: 10px;
+        opacity: 0;
+        animation: popup 2s ease-in-out;
+        animation-delay: 0.8s;
+        animation-fill-mode: forwards;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-shadow: -2px -2px 0 rgb(255, 255, 255),
+          2px -2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255),
+          2px 2px 0 rgb(255, 255, 255);
+      }
+      #Contact {
+      background-color: transparent;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+      #Contact button{
+        font-size: 5em;
+        align: center;
+        position: absolute
+        bottom: 0;
+        padding: 10px;
+        opacity: 0;
+        animation: popup 2s ease-in-out;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+        box-sizing: border-box;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+
+
+        }
+      #Contact button:hover {
+        box-shadow: 0 0 0 5px black;
+      }
+      #Contact-popup {
+        display: none;
+        margin: 20px auto;
+        background-color: white;
+        padding: 20px;
+        width: 200px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        text-align: left;
+        font-size: 1.15em;
+        font-weight: bold;
+        z-index: 10;
+      }
